@@ -1,0 +1,26 @@
+16:58:40 **** Incremental Build of configuration Debug for project ADC_Poll ****
+make all 
+Building file: ../Sources/adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/adc.d" -MT"Sources/adc.o" -c -o "Sources/adc.o" "../Sources/adc.c"
+Finished building: ../Sources/adc.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: ADC_Poll.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/ADC_Poll/Project_Settings/Linker_Files" -Wl,-Map,"ADC_Poll.map" -specs=nano.specs -specs=nosys.specs -o "ADC_Poll.elf"  ./Sources/adc.o ./Sources/clk.o ./Sources/gpio.o ./Sources/lptmr.o ./Sources/main.o ./Sources/tpm.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: ADC_Poll.elf
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "ADC_Poll.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1556	    108	    804	   2468	    9a4	ADC_Poll.elf
+Finished building: ADC_Poll.siz
+ 
+
+16:58:41 Build Finished (took 1s.206ms)
+

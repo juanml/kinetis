@@ -1,0 +1,66 @@
+21:12:09 **** Build of configuration Debug for project GPIO_Input ****
+make all 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/uart/uart.d" -MT"drivers/uart/uart.o" -c -o "drivers/uart/uart.o" "F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/tpm/tpm.d" -MT"drivers/tpm/tpm.o" -c -o "drivers/tpm/tpm.o" "F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/lptmr/lptmr.d" -MT"drivers/lptmr/lptmr.o" -c -o "drivers/lptmr/lptmr.o" "F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/gpio/gpio.d" -MT"drivers/gpio/gpio.o" -c -o "drivers/gpio/gpio.o" "F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/dac/dac.d" -MT"drivers/dac/dac.o" -c -o "drivers/dac/dac.o" "F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/clk/clk.d" -MT"drivers/clk/clk.o" -c -o "drivers/clk/clk.o" "F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"drivers/adc/adc.d" -MT"drivers/adc/adc.o" -c -o "drivers/adc/adc.o" "F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/system_MKL05Z4.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MKL05Z4.d" -MT"Project_Settings/Startup_Code/system_MKL05Z4.o" -c -o "Project_Settings/Startup_Code/system_MKL05Z4.o" "../Project_Settings/Startup_Code/system_MKL05Z4.c"
+Finished building: ../Project_Settings/Startup_Code/system_MKL05Z4.c
+ 
+Building target: GPIO_Input.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/GPIO_Input/Project_Settings/Linker_Files" -Wl,-Map,"GPIO_Input.map" -specs=nano.specs -specs=nosys.specs -o "GPIO_Input.elf"  ./drivers/uart/uart.o  ./drivers/tpm/tpm.o  ./drivers/lptmr/lptmr.o  ./drivers/gpio/gpio.o  ./drivers/dac/dac.o  ./drivers/clk/clk.o  ./drivers/adc/adc.o  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: GPIO_Input.elf
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "GPIO_Input.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1748	    108	    804	   2660	    a64	GPIO_Input.elf
+Finished building: GPIO_Input.siz
+ 
+21:14:40 **** Incremental Build of configuration Debug for project GPIO_Input ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "GPIO_Input.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1748	    108	    804	   2660	    a64	GPIO_Input.elf
+Finished building: GPIO_Input.siz
+ 

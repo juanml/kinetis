@@ -1,0 +1,11 @@
+21:14:40 **** Incremental Build of configuration Debug for project GPIO_Input ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "GPIO_Input.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1748	    108	    804	   2660	    a64	GPIO_Input.elf
+Finished building: GPIO_Input.siz
+ 
+
+21:14:40 Build Finished (took 219ms)
+

@@ -1,0 +1,26 @@
+20:46:41 **** Build of configuration Debug for project Blinky ****
+make all 
+Building file: ../Sources/gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/gpio.d" -MT"Sources/gpio.o" -c -o "Sources/gpio.o" "../Sources/gpio.c"
+Finished building: ../Sources/gpio.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Blinky.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/Blinky/Project_Settings/Linker_Files" -Wl,-Map,"Blinky.map" -specs=nano.specs -specs=nosys.specs -o "Blinky.elf"  ./Sources/adc.o ./Sources/clk.o ./Sources/gpio.o ./Sources/lptmr.o ./Sources/main.o ./Sources/tpm.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: Blinky.elf
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Blinky.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1572	    108	    796	   2476	    9ac	Blinky.elf
+Finished building: Blinky.siz
+ 
+
+20:46:42 Build Finished (took 1s.218ms)
+

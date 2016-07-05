@@ -1,0 +1,11 @@
+17:14:20 **** Incremental Build of configuration Debug for project UART_Send ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "UART_Send.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3636	    112	    800	   4548	   11c4	UART_Send.elf
+Finished building: UART_Send.siz
+ 
+
+17:14:21 Build Finished (took 281ms)
+

@@ -1,0 +1,55 @@
+20:27:00 **** Incremental Build of configuration Debug for project TPM_PWM ****
+make all 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/uart/uart.d" -MT"drivers/uart/uart.o" -c -o "drivers/uart/uart.o" "F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/uart/uart.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/tpm/tpm.d" -MT"drivers/tpm/tpm.o" -c -o "drivers/tpm/tpm.o" "F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/tpm/tpm.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/lptmr/lptmr.d" -MT"drivers/lptmr/lptmr.o" -c -o "drivers/lptmr/lptmr.o" "F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/lptmr/lptmr.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/gpio/gpio.d" -MT"drivers/gpio/gpio.o" -c -o "drivers/gpio/gpio.o" "F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/gpio/gpio.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/dac/dac.d" -MT"drivers/dac/dac.o" -c -o "drivers/dac/dac.o" "F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/dac/dac.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/clk/clk.d" -MT"drivers/clk/clk.o" -c -o "drivers/clk/clk.o" "F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/clk/clk.c
+ 
+Building file: F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"drivers/adc/adc.d" -MT"drivers/adc/adc.o" -c -o "drivers/adc/adc.o" "F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c"
+Finished building: F:/Ejemplos_Libreria_KL05/drivers/adc/adc.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/system_MKL05Z4.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/system_MKL05Z4.d" -MT"Project_Settings/Startup_Code/system_MKL05Z4.o" -c -o "Project_Settings/Startup_Code/system_MKL05Z4.o" "../Project_Settings/Startup_Code/system_MKL05Z4.c"
+Finished building: ../Project_Settings/Startup_Code/system_MKL05Z4.c
+ 
+Building target: TPM_PWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/TPM_PWM/Project_Settings/Linker_Files" -Wl,-Map,"TPM_PWM.map" -specs=nano.specs -specs=nosys.specs -o "TPM_PWM.elf"  ./drivers/uart/uart.o  ./drivers/tpm/tpm.o  ./drivers/lptmr/lptmr.o  ./drivers/gpio/gpio.o  ./drivers/dac/dac.o  ./drivers/clk/clk.o  ./drivers/adc/adc.o  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: TPM_PWM.elf
+ 
+
+20:27:03 Build Finished (took 2s.125ms)
+

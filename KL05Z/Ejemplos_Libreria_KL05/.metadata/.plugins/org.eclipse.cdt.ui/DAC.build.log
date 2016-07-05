@@ -1,0 +1,20 @@
+20:17:21 **** Incremental Build of configuration Debug for project DAC ****
+make all 
+Building file: ../Sources/dac.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/dac.d" -MT"Sources/dac.o" -c -o "Sources/dac.o" "../Sources/dac.c"
+Finished building: ../Sources/dac.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: DAC.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/DAC/Project_Settings/Linker_Files" -Wl,-Map,"DAC.map" -specs=nano.specs -specs=nosys.specs -o "DAC.elf"  ./Sources/adc.o ./Sources/clk.o ./Sources/dac.o ./Sources/gpio.o ./Sources/lptmr.o ./Sources/main.o ./Sources/tpm.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: DAC.elf
+ 
+
+20:17:22 Build Finished (took 859ms)
+

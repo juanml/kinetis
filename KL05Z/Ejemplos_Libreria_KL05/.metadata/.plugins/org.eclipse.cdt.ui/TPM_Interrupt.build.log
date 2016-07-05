@@ -1,0 +1,21 @@
+23:05:55 **** Incremental Build of configuration Debug for project TPM_Interrupt ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -I"F:\Ejemplos_Libreria_KL05\drivers\adc" -I"F:\Ejemplos_Libreria_KL05\drivers\clk" -I"F:\Ejemplos_Libreria_KL05\drivers\dac" -I"F:\Ejemplos_Libreria_KL05\drivers\gpio" -I"F:\Ejemplos_Libreria_KL05\drivers\lptmr" -I"F:\Ejemplos_Libreria_KL05\drivers\tpm" -I"F:\Ejemplos_Libreria_KL05\drivers\uart" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: TPM_Interrupt.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MKL05Z32xxx4_flash.ld" -Xlinker --gc-sections -L"F:/Ejemplos_Libreria_KL05/TPM_Interrupt/Project_Settings/Linker_Files" -Wl,-Map,"TPM_Interrupt.map" -specs=nano.specs -specs=nosys.specs -o "TPM_Interrupt.elf"  ./drivers/uart/uart.o  ./drivers/tpm/tpm.o  ./drivers/lptmr/lptmr.o  ./drivers/gpio/gpio.o  ./drivers/dac/dac.o  ./drivers/clk/clk.o  ./drivers/adc/adc.o  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MKL05Z4.o ./Project_Settings/Startup_Code/system_MKL05Z4.o   
+Finished building target: TPM_Interrupt.elf
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "TPM_Interrupt.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2600	    112	    808	   3520	    dc0	TPM_Interrupt.elf
+Finished building: TPM_Interrupt.siz
+ 
+
+23:05:56 Build Finished (took 579ms)
+
