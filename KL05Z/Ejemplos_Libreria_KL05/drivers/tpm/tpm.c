@@ -37,13 +37,27 @@ void TPM_pinMux(uint32_t port, uint8_t bit)
 void TPM_setTOFint(TPM_MemMapPtr TPMx)
 {
     TPM_SC_REG(TPMx) |= TPM_SC_TOIE_MASK;
-    NVIC_EnableIRQ(TPM1_IRQn);
+	if (TPMx == TPM0)
+		{
+			NVIC_EnableIRQ(TPM0_IRQn);
+		}
+	else if (TPMx == TPM1)
+			{
+				NVIC_EnableIRQ(TPM1_IRQn);
+			}
 }
 
 void TPM_disableTOFint(TPM_MemMapPtr TPMx)
 {
 	TPM_SC_REG(TPMx) &= ~TPM_SC_TOIE_MASK;
-    NVIC_DisableIRQ(TPM1_IRQn);
+	if (TPMx == TPM0)
+		{
+			NVIC_DisableIRQ(TPM0_IRQn);
+		}
+	else if (TPMx == TPM1)
+			{
+				NVIC_DisableIRQ(TPM1_IRQn);
+			}
 }
 
 void TPM_clearFlagTOF(TPM_MemMapPtr TPMx)
