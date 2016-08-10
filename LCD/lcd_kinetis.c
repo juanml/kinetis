@@ -228,3 +228,32 @@ void LCD_send_byte(char address, char data)
 	LCD_send_nibble(data & 0x0f);   // send the lower nibble
 	time_delay_ms(6);
 }
+
+//**************************************************************************
+//* Create a custom character
+//**************************************************************************
+//* Calling arguments:
+//* uint8_t location : location where you want to store
+//					   (0,1,2,....7)
+//* uint8_t *ptr : Pointer to pattern data
+//
+//*				   0x40-0x47 pattern for character 00
+//				   0x48-0x4f pattern for character 01
+//				   0x50-0x57 pattern for character 02
+//				   0x58-0x5f pattern for character 03
+//				   0x60-0x67 pattern for character 04
+//				   0x68-0x6f pattern for character 05
+//				   0x70-0x77 pattern for character 06
+//				   0x78-0x7f pattern for character 07
+//**************************************************************************
+
+void LCD_Set_CustomChar(uint8_t location, uint8_t *ptr)
+	{
+		uint8_t i;
+		if (location<8)
+			{
+				LCD_send_byte(0, 0x40+(location*8));
+				for(i=0;i<8;i++)
+				   LCD_send_byte(1, ptr[ i ]);
+			}
+	}

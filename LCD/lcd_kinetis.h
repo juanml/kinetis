@@ -61,3 +61,4 @@ void LCD_cursor_on(void);
 void LCD_cursor_off(void);
 void LCD_cursor_blink_on(void);
 void LCD_cursor_blink_off(void);
+void LCD_Set_CustomChar(uint8_t location, uint8_t *ptr);
