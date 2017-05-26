@@ -36,8 +36,8 @@
 #define IRQ_RISING_FALLING	PORT_PCR_IRQC(11)
 #define IRQ_HIGH			PORT_PCR_IRQC(12)
 
-#define  FALSE  0x00u                /* Boolean value FALSE. FALSE is defined always as a zero value. */
-#define  TRUE   0x01u                /* Boolean value TRUE. TRUE is defined always as a non zero value. */
+#define  FALSE  0x00u                // FALSE es un valor cero
+#define  TRUE   0x01u                // TRUE es un valor distinto de cero
 
 void GPIO_Init(uint32_t port, uint8_t bit, uint32_t func);
 void GPIO_IO(uint32_t port, uint8_t bit, uint8_t dir);
@@ -45,5 +45,10 @@ void GPIO_Set(uint32_t port, uint8_t bit);
 void GPIO_Clear(uint32_t port, uint8_t bit);
 void GPIO_Toggle(uint32_t port, uint8_t bit);
 uint8_t GPIO_Read(uint32_t port, uint8_t bit);
+void FGPIO_IO(uint32_t port, uint8_t bit, uint8_t dir);
+void FGPIO_Set(uint32_t port, uint8_t bit);
+void FGPIO_Clear(uint32_t port, uint8_t bit);
+void FGPIO_Toggle(uint32_t port, uint8_t bit);
+uint8_t FGPIO_Read(uint32_t port, uint8_t bit);
 
 #endif /* INCLUDES_GPIO_H_ */
