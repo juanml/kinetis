@@ -1,3 +1,9 @@
+/*
+* Liberia para manejo de LCDs, adaptada del libro HCS08 Unleashed, 
+* para ser utilizada en microcontroladores Kinetis.
+* Web del libro: http://sctec.com.br/site/index.php/livros/9-hcs08unleashed
+*/
+
 #include "lcd_kinetis.h"
 
 // Display configuration global variable
